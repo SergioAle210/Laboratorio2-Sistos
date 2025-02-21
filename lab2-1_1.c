@@ -6,10 +6,10 @@ int main()
 {
     printf("Proceso inicial PID: %d\n", getpid());
 
-    fork(); // Primer fork
-    fork(); // Segundo fork
-    fork(); // Tercer fork
-    fork(); // Cuarto fork
+    fork();
+    fork();
+    fork();
+    fork();
 
     printf("Proceso PID: %d, Padre PID: %d\n", getpid(), getppid());
 
